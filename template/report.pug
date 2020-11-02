@@ -1,0 +1,22 @@
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Migrations
+        style
+            include bootstrap.4.5.3.min.css
+    body
+        table(class="table table-bordered")
+            thead
+                th(scope="col") #
+                th(scope="col") Time
+                th(scope="col") Name
+                th(scope="col") Changes
+            each migration, index in migrations
+                tr
+                    th(scope="row") #{index+1}
+                    td #{migration.time}
+                    td #{migration.name}
+                    td
+                        each command in migration.commands
+                            p !{command}
