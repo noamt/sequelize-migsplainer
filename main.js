@@ -25,7 +25,7 @@ let migrationsDir;
 if (argv.migrations) {
   migrationsDir = argv.migrations;
 } else {
-  argv.migrations = '.';
+  argv.migrations = process.cwd();
 }
 
 let outputPath;
