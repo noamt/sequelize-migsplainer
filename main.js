@@ -36,4 +36,4 @@ if (argv.output) {
 }
 
 run(migrationsDir, outputPath)
-  .then(()=>{});
+  .then(() => {});

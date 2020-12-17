@@ -4,26 +4,28 @@
   "description": "Translates migration files into human speak",
   "main": "main.js",
   "author": "Noam Y. Tenne",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "dependencies": {
     "pug": "^3.0.0",
     "sequelize": "^6.3.5",
-    "yargs": "^16.1.0"
+    "yargs": "^16.2.0"
   },
   "bin": {
     "migsplain": "./main.js"
   },
   "devDependencies": {
-    "eslint": "^7.12.1",
-    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jest": "^24.1.0",
-    "jest": "^26.6.1",
+    "eslint-plugin-jest": "^24.1.3",
+    "jest": "^26.6.3",
     "parse5": "^6.0.1",
     "prettier": "2.1.2",
     "tmp-promise": "^3.0.2"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint-and-fix": "npx eslint --fix ./",
+    "lint": "npx eslint ./"
   }
 }
