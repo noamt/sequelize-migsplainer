@@ -1,10 +1,14 @@
 {
   "name": "sequelize-migsplainer",
   "version": "0.0.1",
-  "description": "Translates migration files into human speak",
+  "description": "Translates Sequelize migration files into human speak",
   "main": "main.js",
   "author": "Noam Y. Tenne",
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noamt/sequelize-migsplainer.git"
+  },
   "dependencies": {
     "pug": "^3.0.0",
     "sequelize": "^6.3.5",
