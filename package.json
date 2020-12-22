@@ -1,6 +1,6 @@
 {
   "name": "sequelize-migsplainer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Translates Sequelize migration files into human speak",
   "main": "main.js",
   "author": "Noam Y. Tenne",
