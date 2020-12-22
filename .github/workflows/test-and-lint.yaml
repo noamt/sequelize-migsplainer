@@ -11,3 +11,6 @@ jobs:
         name: Build
       - run: npm run test
       - run: npm run lint
+      - run: ./node_modules/.bin/codecov
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
