@@ -1,19 +1,18 @@
-= Sequelize Migration Explainer
+# Sequelize Migration Explainer
 
 Translates database migration files into human speak.
 
-== About
-While managing migration-as-code using https://www.npmjs.com/package/sequelize-auto-migrations[sequelize-auto-migrations], I wanted to also be able to describe the evolution of the database in a more natural language.
+## About
+While managing migration-as-code using [sequelize-auto-migrations](https://www.npmjs.com/package/sequelize-auto-migrations), I wanted to also be able to describe the evolution of the database in a more natural language.
 
 This tool reads migration files and produces an HTML report where each migration operation is converted to an explanation in English.
 
-== Installation
+## Installation
 ```bash
 npm i sequelize-migsplainer -g
 ```
 
-
-== Usage
+## Usage
 
 From your project's root directory run:
 ```bash
