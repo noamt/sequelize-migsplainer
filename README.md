@@ -4,6 +4,7 @@ Translates database migration files into human speak.
 
 ![build](https://github.com/noamt/sequelize-migsplainer/workflows/test-and-lint/badge.svg)
 ![build](https://img.shields.io/badge/npm-v0.0.2-blue)
+[![codecov](https://codecov.io/gh/noamt/sequelize-migsplainer/branch/main/graph/badge.svg?token=3e3jFHsQRr)](https://codecov.io/gh/noamt/sequelize-migsplainer)
 
 ## About
 While managing migration-as-code using [sequelize-auto-migrations](https://www.npmjs.com/package/sequelize-auto-migrations), I wanted to also be able to describe the evolution of the database in a more natural language.
